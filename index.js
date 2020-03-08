@@ -1,13 +1,28 @@
 const readline = require('readline');
+const challenges = require('./challenges');
+
+const NO_OF_CHALLENGES = 1;
 
 const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
+    input: process.stdin,
+    output: process.stdout
 });
 
-rl.question('What do you think of Node.js? ', (answer) => {
-  // TODO: Log the answer in a database
-  console.log(`Thank you for your valuable feedback: ${answer}`);
+const question = (str) => new Promise(resolve => rl.question(str, resolve));
 
-  rl.close();
-});
+const program = {
+  start: async () => {
+    return program.input();
+  },
+  input: async () => {
+    const iNumber = await question("Select a challenge to do? Please type a number from 1 to " + NO_OF_CHALLENGES + ": ");
+    // TODO validate input
+    challenges.solve_challenge(iNumber);
+    return program.end();
+  },
+  end: async () => {
+    rl.close();
+  },
+};
+
+program.start();
