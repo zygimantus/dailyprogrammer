@@ -3,7 +3,7 @@ const Challenge = require('./Challenge');
 class ChallengeDifficult extends Challenge {
 
     constructor() {
-        super(1, "difficult");
+        super(1, "hard");
     }
 
     async solve() {

@@ -17,6 +17,12 @@ module.exports = {
                 challenge = new ChallengeDifficult();
             }
         }
+        if (number == 2) {
+            if (type == 1) {
+                const ChallengeEasy2 = require('./core/ChallengeEasy2');
+                challenge = new ChallengeEasy2();    
+            }
+        }
         challenge.inform();
         await challenge.solve();
     }
