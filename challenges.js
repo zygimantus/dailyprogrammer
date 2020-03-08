@@ -1,10 +1,12 @@
 module.exports = {
 
-    solve_challenge(iNumber) {
+    // TODO make a class for a challenge when there are more of them
+    async solve_challenge(iNumber) {
 
         if (iNumber == 1) {
 
-            console.log("DOING: " + iNumber);
+            const challenge_1 = require('./lib/challenge_1');
+            await challenge_1.run();
         }
     }
 }
