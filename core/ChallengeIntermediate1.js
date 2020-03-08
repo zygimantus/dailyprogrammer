@@ -1,4 +1,4 @@
-const Challenge = require('./challenge');
+const Challenge = require('./Challenge');
 
 class ChallengeIntermediate1 extends Challenge {
 
@@ -9,9 +9,9 @@ class ChallengeIntermediate1 extends Challenge {
     async solve() {
         const readLineSync = require('readline-sync')
 
-        const Schedule = require('./schedule');
+        const Schedule = require('../lib/schedule');
         const schedule = new Schedule();
-        const Event = require('./event');        
+        const Event = require('../lib/event');        
 
         let input;
         while (input !== '0') {

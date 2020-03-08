@@ -1,4 +1,4 @@
-const Challenge = require('./challenge');
+const Challenge = require('./Challenge');
 
 class ChallengeEasy1 extends Challenge {
 

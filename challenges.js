@@ -5,12 +5,12 @@ module.exports = {
 
         let challenge;
         if (number == 1) {
-            const ChallengeEasy1 = require('./lib/ChallengeEasy1');
+            const ChallengeEasy1 = require('./core/ChallengeEasy1');
             challenge = new ChallengeEasy1();
         }
 
         if (number == 2) {
-            const ChallengeIntermediate1 = require('./lib/ChallengeIntermediate1');
+            const ChallengeIntermediate1 = require('./core/ChallengeIntermediate1');
             challenge = new ChallengeIntermediate1();
         }
         challenge.inform();
