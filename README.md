@@ -14,6 +14,6 @@ create a program that will allow you to enter events organizable by hour. There 
 
 (note that by menu i dont necessarily mean gui. as long as you can easily access the different options and receive prompts and instructions telling you how to use the program, it will probably be fine)
 
-## [difficult] challenge #1
+## [hard] challenge #1
 
 we all know the classic "guessing game" with higher or lower prompts. lets do a role reversal; you create a program that will guess numbers between 1-100, and respond appropriately based on whether users say that the number is too high or too low. Try to make a program that can guess your number based on user input and great code!
