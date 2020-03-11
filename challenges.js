@@ -22,6 +22,10 @@ module.exports = {
                 const ChallengeEasy2 = require('./core/ChallengeEasy2');
                 challenge = new ChallengeEasy2();    
             }
+            if (type == 2) {
+                const ChallengeIntermediate2 = require('./core/ChallengeIntermediate2');
+                challenge = new ChallengeIntermediate2();    
+            }
         }
         challenge.inform();
         await challenge.solve();
