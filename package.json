@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "readline": "^1.3.0",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "terminal-overwrite": "^2.0.1"
   }
 }
