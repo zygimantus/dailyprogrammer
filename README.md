@@ -31,3 +31,7 @@ create a short text adventure that will call the user by their name. The text ad
 for extra credit, make sure the program doesn't fault, quit, glitch, fail, or loop no matter what is put in, even empty text or spaces. These will be tested rigorously!
 
 For super extra credit, code it in C
+
+## [difficult] challenge #2
+
+Your mission is to create a stopwatch program. this program should have start, stop, and lap options, and it should write out to a file to be viewed later.
