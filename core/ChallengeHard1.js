@@ -1,6 +1,6 @@
 const Challenge = require('./Challenge');
 
-class ChallengeDifficult extends Challenge {
+class ChallengeHard1 extends Challenge {
 
     constructor() {
         super(1, "hard");
@@ -28,4 +28,4 @@ class ChallengeDifficult extends Challenge {
     }
 }
 
-module.exports = ChallengeDifficult
+module.exports = ChallengeHard1
