@@ -43,3 +43,13 @@ Welcome to cipher day!
 write a program that can encrypt texts with an alphabetical caesar cipher. This cipher can ignore numbers, symbols, and whitespace.
 
 for extra credit, add a "decrypt" function to your program!
+
+## [intermediate] challenge #3
+
+Welcome to cipher day!
+
+Create a program that can take a piece of text and encrypt it with an alphabetical substitution cipher. This can ignore white space, numbers, and symbols.
+
+for extra credit, make it encrypt whitespace, numbers, and symbols!
+
+for extra extra credit, decode someone elses cipher!
