@@ -35,3 +35,11 @@ For super extra credit, code it in C
 ## [difficult] challenge #2
 
 Your mission is to create a stopwatch program. this program should have start, stop, and lap options, and it should write out to a file to be viewed later.
+
+## [easy] challenge #3
+
+Welcome to cipher day!
+
+write a program that can encrypt texts with an alphabetical caesar cipher. This cipher can ignore numbers, symbols, and whitespace.
+
+for extra credit, add a "decrypt" function to your program!
