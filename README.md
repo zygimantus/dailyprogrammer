@@ -53,3 +53,32 @@ Create a program that can take a piece of text and encrypt it with an alphabetic
 for extra credit, make it encrypt whitespace, numbers, and symbols!
 
 for extra extra credit, decode someone elses cipher!
+
+## [intermediate] challenge #3
+
+Welcome to cipher day!
+
+For this challenge, you need to write a program that will take the scrambled words from this post, and compare them against THIS WORD LIST to unscramble them. For bonus points, sort the words by length when you are finished. Post your programs and/or subroutines!
+
+Here are your words to de-scramble:
+
+mkeart
+
+sleewa
+
+edcudls
+
+iragoge
+
+usrlsle
+
+nalraoci
+
+nsdeuto
+
+amrhat
+
+inknsy
+
+iferkna
+

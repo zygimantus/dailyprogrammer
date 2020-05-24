@@ -40,6 +40,10 @@ module.exports = {
                 const ChallengeIntermediate3 = require('./core/ChallengeIntermediate3');
                 challenge = new ChallengeIntermediate3();
             }
+            if (type == 3) {
+                const ChallengeHard3 = require('./core/ChallengeHard3');
+                challenge = new ChallengeHard3();
+            }
         }
         challenge.inform();
         await challenge.solve();
