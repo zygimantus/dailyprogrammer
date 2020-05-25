@@ -54,7 +54,7 @@ for extra credit, make it encrypt whitespace, numbers, and symbols!
 
 for extra extra credit, decode someone elses cipher!
 
-## [intermediate] challenge #3
+## [difficult] challenge #3
 
 Welcome to cipher day!
 
@@ -82,3 +82,44 @@ inknsy
 
 iferkna
 
+## [easy] challenge #4
+
+You're challenge for today is to create a random password generator!
+
+For extra credit, allow the user to specify the amount of passwords to generate.
+
+For even more extra credit, allow the user to specify the length of the strings he wants to generate!
+
+## [intermediate] challenge #4
+
+create a calculator program that will take an input, following normal calculator input (5*5+4) and give an answer (29). This calculator should use all four operators.
+
+For extra credit, add other operators (6(4+3), 3 ** 3, etc.)
+
+## [difficult] challenge #4
+
+today, your challenge is to create a program that will take a series of numbers (5, 3, 15), and find how those numbers can add, subtract, multiply, or divide in various ways to relate to eachother. This string of numbers should result in 5 * 3 = 15, or 15 /3 = 5, or 15/5 = 3. When you are done, test your numbers with the following strings:
+
+4, 2, 8
+
+6, 2, 12
+
+6, 2, 3
+
+9, 12, 108
+
+4, 16, 64
+
+For extra credit, have the program list all possible combinations.
+
+for even more extra credit, allow the program to deal with strings of greater than three numbers. For example, an input of (3, 5, 5, 3) would be 3 * 5 = 15, 15/5 = 3. When you are finished, test them with the following strings.
+
+2, 4, 6, 3
+
+1, 1, 2, 3
+
+4, 4, 3, 4
+
+8, 4, 3, 6
+
+9, 3, 1, 7
