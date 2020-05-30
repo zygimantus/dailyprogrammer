@@ -59,6 +59,16 @@ module.exports = {
                 challenge = new ChallengeHard4();
             }
         }
+        if (number == 5) {
+            if (type == 1) {
+                const ChallengeEasy5 = require('./core/ChallengeEasy5');
+                challenge = new ChallengeEasy5();
+            }
+            if (type == 2) {
+                const ChallengeIntermediate5 = require('./core/ChallengeIntermediate5');
+                challenge = new ChallengeIntermediate5();
+            }
+        }
         challenge.inform();
         await challenge.solve();
     }

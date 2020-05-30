@@ -1,7 +1,7 @@
 const readline = require('readline');
 const challenges = require('./challenges');
 
-const NO_OF_CHALLENGES = 4;
+const NO_OF_CHALLENGES = 5;
 
 const rl = readline.createInterface({
     input: process.stdin,
