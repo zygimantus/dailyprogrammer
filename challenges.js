@@ -54,6 +54,10 @@ module.exports = {
                 const ChallengeIntermediate4 = require('./core/ChallengeIntermediate4');
                 challenge = new ChallengeIntermediate4();
             }
+            if (type == 3) {
+                const ChallengeHard4 = require('./core/ChallengeHard4');
+                challenge = new ChallengeHard4();
+            }
         }
         challenge.inform();
         await challenge.solve();
