@@ -124,6 +124,14 @@ for even more extra credit, allow the program to deal with strings of greater th
 
 9, 3, 1, 7
 
+## [easy] challenge #5
+
+Your challenge for today is to create a program which is password protected, and wont open unless the correct user and password is given.
+
+For extra credit, have the user and password in a seperate .txt file.
+
+for even more extra credit, break into your own program :)
+
 ## [intermediate] challenge #5
 
 Your challenge today is to write a program that can find the amount of anagrams within a .txt file. For example, "snap" would be an anagram of "pans", and "skate" would be an anagram of "stake".
